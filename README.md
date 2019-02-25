@@ -22,6 +22,6 @@
 * [WebSocket](web-protocols/WebSocket/README.md)
 
 ## Utility
-* [Java Web](../language/java/java-web/README.md)
+* [Java Web](java-web/README.md)
 
 
