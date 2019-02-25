@@ -1,8 +1,8 @@
 # Web Knowledge Systems
 
 * [Web Application](web-app/README.md)
+* [Nginx](/nginx/README.md)
 ## [Web Architecture](web-arch/README.md)
-* [Nginx](web-arch//nginx/README.md)
 
 ## [Web APIs](web-APIs/README.md)
 * [RESTful](web-APIs/restful/README.md)
