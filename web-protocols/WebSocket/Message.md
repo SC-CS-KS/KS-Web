@@ -69,3 +69,53 @@ Upgrade: WebSocket
 "roles":"[\"anonymous\"]"
 }
 ```
+```json
+{
+  "op": "PARAGRAPH",
+  "data": {
+    "paragraph": {
+      "text": "sc.version\n",
+      "user": "anonymous",
+      "dateUpdated": "2019-03-08T16:57:41+0800",
+      "config": {
+        "colWidth": 12.0,
+        "fontSize": 9.0,
+        "enabled": true,
+        "results": {},
+        "editorSetting": {
+          "language": "scala",
+          "editOnDblClick": false,
+          "completionKey": "TAB",
+          "completionSupport": true
+        },
+        "editorMode": "ace/mode/scala",
+        "tableHide": false
+      },
+      "settings": {
+        "params": {},
+        "forms": {}
+      },
+      "results": {
+        "code": "SUCCESS",
+        "msg": [
+          {
+            "type": "TEXT",
+            "data": "res28: String \u003d 2.4.0\n"
+          }
+        ]
+      },
+      "apps": [],
+      "jobName": "paragraph_1551171249437_-1857577060",
+      "id": "20190226-165409_698627529",
+      "dateCreated": "2019-02-26T16:54:09+0800",
+      "dateStarted": "2019-03-08T16:29:16+0800",
+      "dateFinished": "2019-03-08T16:29:16+0800",
+      "status": "READY",
+      "progressUpdateIntervalMs": 500
+    }
+  },
+  "ticket": "anonymous",
+  "principal": "anonymous",
+  "roles": ""
+}
+```
