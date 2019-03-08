@@ -1,28 +1,29 @@
 # What Is WebSocket ?
 ```md
-是为了满足基于 Web 的日益增长的实时通信需求而产生的。
-在传统的 Web 中，要实现实时通信，通用的方式是采用 HTTP 协议不断发送请求。
-但这种方式即浪费带宽（HTTP HEAD 是比较大的），又消耗服务器 CPU 占用（没有信息也要接受请求）。
+WebSocket 协议在2008年诞生，2011年成为国际标准。
+基本所有主流浏览器都已经支持了。
+```
+* Features
+```md
+支持客户端和服务器端的双向通信，属于服务器推送技术的一种。
 ```
 ```md
-WebSocket协议是一种双向通信协议，它建立在TCP之上。
+1. 建立在 TCP 协议之上，服务器端的实现比较容易。
+2. 与 HTTP 协议有着良好的兼容性。
+  默认端口也是80和443，并且握手阶段采用 HTTP 协议，因此握手时不容易屏蔽，能通过各种 HTTP 代理服务器。
+3. 数据格式比较轻量，性能开销小，通信高效。
+4. 可以发送文本，也可以发送二进制数据。
+5. 没有同源限制，客户端可以与任意服务器通信。
+6. 协议标识符是ws（如果加密，则为wss），服务器网址就是 URL。
+  ws://example.com:80/some/path
 ```
-## Usage Scenario
-* [为什么引入WebSocket协议](https://blog.csdn.net/yl02520/article/details/7298309)
-
-## Utility
-```md
-目前流行的浏览器都支持这个协议，例如Chrome，Safari，Firefox，Opera，IE等等
-```
-
+![](pic/web-socket.jpg )
 ## Compare With
 * vs. [Http](../http/README.md)
 ```md
-WebSocket是一种双向通信协议，在建立连接后，WebSocket服务器和Browser/UA都能主动的向对方发送或接收数据，
-就像Socket一样，不同的是WebSocket是一种建立在Web基础上的一种简单模拟Socket的协议。
-
 HTTP、WebSocket 等应用层协议，都是基于 TCP 协议来传输数据的。
-
+```
+```md
 1. WebSocket 是 HTML5 中的协议，支持持久连接；而 Http 协议不支持持久连接。
 2. WebSocket 在建立握手连接时，数据是通过http协议传输的。
 ```
@@ -30,6 +31,8 @@ HTTP、WebSocket 等应用层协议，都是基于 TCP 协议来传输数据的�
 ```md
 WebSocket 是一个完整的 应用层协议，包含一套标准的 API。
 Socket 不是协议，是应用层与TCP/IP协议族通信的中间软件抽象层，它是一组接口。
+
+WebSocket是一种建立在Web基础上的一种简单模拟Socket的协议。
 ```
 * vs. HTML5
 ```md
