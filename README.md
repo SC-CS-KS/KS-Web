@@ -5,7 +5,8 @@
 * [WebSocket](web-protocols/WebSocket/README.md)
 
 ## Web Server
-* [Nginx](/nginx/README.md)
+* [Nginx](web-server/nginx/README.md)
+* [Jetty](web-server/jetty/README.md)
 
 ## [Web Architecture](web-arch/README.md)
 
@@ -17,6 +18,7 @@
 
 ## [Web APIs](web-APIs/README.md)
 * [RESTful](web-APIs/restful/README.md)
+> * * [Jersey](web-APIs/restful/jersey/README.md)
 * [GraphQL](web-APIs/GraphQL/README.md)
 
 ## Web Framework
