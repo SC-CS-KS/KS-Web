@@ -40,7 +40,7 @@ Bayeux 是一种 “发布- 订阅” 协议。
 
 * [JFinal](https://gitee.com/jfinal/jfinal)
 ```md
-基于 Java 语言的极速 WEB + ORM 框架
+基于 Jetty 的极速 WEB + ORM 框架。
 ```
 
 ## Utility
