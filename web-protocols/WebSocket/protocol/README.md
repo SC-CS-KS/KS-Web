@@ -1,5 +1,10 @@
-# Message
+# WebSocket Protocol
 
+* URLs
+```md
+ws 和 wss。
+ws://10.96.111.130:8081/ws
+```
 * Request Headers
 ```http
 GET ws://10.96.111.130:8081/ws HTTP/1.1
@@ -16,7 +21,9 @@ Accept-Language: zh-CN,zh;q=0.9,en;q=0.8
 Sec-WebSocket-Key: zDZ/E2myeYgoGbO1hLHQWw==
 Sec-WebSocket-Extensions: permessage-deflate; client_max_window_bits
 ```
-
+```md
+如果服务器支持WebSocket协议，则它同意升级并通过 响应中的 Upgrade 头进行确认。
+```
 * Response Headers
 ```http
 HTTP/1.1 101 Switching Protocols
@@ -33,6 +40,17 @@ Sec-WebSocket-Accept: 51sbFernckDhcYaHbpe542qK848=
 Server: Jetty(9.4.14.v20181114)
 Upgrade: WebSocket
 ```
+```md
+握手完成后，初始HTTP连接将被使用相同底层TCP / IP连接的WebSocket连接替换。
+此时，任何一方都可以开始发送数据。
+```
+* Dransfer Data
+```md
+数据通过WebSocket作为消息传输，每个消息由一个或多个包含您要发送的数据（有效负载）的帧组成。
+为了确保消息在到达客户端时可以正确地重建，每个帧的前缀是4-12字节的有效载荷数据。
+使用这种基于帧的消息传递系统有助于减少传输的非有效负载数据量，从而显着减少延迟。
+```
+# Message
 * Data
 ```json
 {"op":"LIST_CONFIGURATIONS","principal":"anonymous","ticket":"anonymous","roles":"[\"anonymous\"]"}
