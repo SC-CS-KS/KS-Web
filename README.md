@@ -18,7 +18,7 @@
 
 ## [Web APIs](web-APIs/README.md)
 * [RESTful](web-APIs/restful/README.md)
-> * * [Jersey](web-APIs/restful/jersey/README.md)
+> * * [Jersey](https://github.com/SunnnyChan/sc.drill-code/blob/master/web/jersy/)
 * [GraphQL](web-APIs/GraphQL/README.md)
 
 ## [Web Service](web-Service/README.md)

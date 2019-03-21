@@ -6,7 +6,7 @@
 * [Restful 规范](restful-norm.md)
 
 ## Implement
-* [Jersey](jersey/README.md)
+* [Jersey](https://github.com/SunnnyChan/sc.drill-code/blob/master/web/jersy/)
 
 ## Resources
 * [awesome-rest](https://github.com/marmelab/awesome-rest)
