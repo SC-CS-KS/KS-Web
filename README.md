@@ -12,6 +12,8 @@
 
 ### [Web Client](web-arch/Client.md)
 
+### [Web CGI]
+
 ## Web Develop
 * [Web Application](web-app/README.md)
 
