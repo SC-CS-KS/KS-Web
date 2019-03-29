@@ -7,7 +7,7 @@
 ## [Web Architecture](web-arch/README.md)
 
 ### [Web Server](web-server/README.md)
-* [Nginx](web-server/nginx/README.md)
+* [Nginx](https://github.com/SunnnyChan/knowledge-Sys-of-Nginx)
 * [Jetty](https://github.com/SunnnyChan/sc.drill-code/tree/master/web/jetty)
 
 ### [Web Client](web-arch/Client.md)
