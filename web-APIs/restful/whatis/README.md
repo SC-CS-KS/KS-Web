@@ -26,6 +26,18 @@ RESTful可以通过一套统一的接口为 Web、iOS和Android提供服务，
 它们不需要有显式的前端，只需要一套提供服务的接口，于是RESTful便是它们最好的选择。
 ```
 * [参考 Web 架构 前后端分离](https://github.com/SunnnyChan/sc.study-notes/blob/master/computer-science/web/web-arch/WhatIs/README.md)
+
+## 四个级别的成熟度：
+```md
+级别0：定义一个 URI，所有操作是对此 URI 发出的 POST 请求。
+级别1：为各个资源单独创建 URI。
+级别2：使用 HTTP 方法来定义对资源执行的操作。
+级别3：使用超媒体（HATEOAS）。
+```
+```md
+级别0其实就是类RPC的风格，级别3是真正的REST，大多数号称REST的API在级别2。
+```
+
 ## Cases
 
 
