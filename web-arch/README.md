@@ -4,9 +4,5 @@
 
 ## Design
 
-
-## Component
-* [Nginx](nginx/README.md)
-
 ## [Practice](practice/README.md)
 
