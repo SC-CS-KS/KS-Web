@@ -16,7 +16,7 @@
 ngx.location.capture_multi
 ```
 * [Cookie分流](utilities/Cookie-bypass.md)
-* [限流](utilities/Throttling.md)
+* 限流
 
 ## [OpenResty](OpenResty/README.md)
 
