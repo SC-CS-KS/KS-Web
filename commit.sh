@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 github() {
    git config --global user.name sunnychan
    git config --global user.email sunnnychan@gmail.com
