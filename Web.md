@@ -16,9 +16,9 @@
 ## [Dweb](Dweb/README.md)
 
 # [Web APIs](WebAPIs/README.md)
-### RESTful
-#### [Jersey](https://github.com/SunnnyChan/sc.drill-code/blob/master/web/jersy/)
-### GraphQL
+## [RESTful](WebAPIs/RESTful/README.md)
+### [Jersey](https://github.com/SunnnyChan/sc.drill-code/blob/master/web/jersy/)
+## [GraphQL](WebAPIs/GraphQL/README.md)
 
 # [Web 开发]()
 ## [Web 开发框架](WebFW/README.md)
