@@ -7,7 +7,7 @@
 
 # [Web 架构](web-arch/README.md)
 ## [Web Server](web-arch/web-server/README.md)
-### [Nginx](https://github.com/SunnnyChan/knowledge-Sys-of-Nginx)
+### [Nginx](https://github.com/SC-CS-KS/KS-Nginx)
 ### [Jetty](https://github.com/SunnnyChan/sc.drill-code/tree/master/web/jetty)
 
 ## [Web Client](web-arch/Client.md)
