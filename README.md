@@ -5,8 +5,6 @@
 Table of Content
 =================
 
-=================
-
    * [<a href="WhatIs.md">What Is Web ?</a>](#what-is-web-)
    * [Web 协议](#web-协议)
       * [<a href="Protocol-HTTP/README.md">HTTP</a>](#http)
