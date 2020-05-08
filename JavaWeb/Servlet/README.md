@@ -2,9 +2,8 @@
 
 ## [WhatIs](WhatIs.md)
 
-## Design
-* Servlet生命周期
-```md
+## Servlet生命周期
+```text
 (1) 加载和实例化
 	如果Servlet容器还没实例化一个Servlet对象，此时容器装载和实例化一个 Servlet。
 		创建出该 Servlet 类的一个实例。
@@ -20,20 +19,16 @@
 注意：
 	(1)(2)(4) 在 Servlet 的整个生命周期中只会被执行一次
 ```
-* Servlet单实例多线程模式
 
-## Architecture
+## Servlet单实例多线程模式
+
+## 架构
 
 * ServletConfig
 * ServletContext 
 * ServletRequest
 * ServletResponse
 
-```md
-交易场景就由 ServletContext 来描述，而定制的参数集合就由 ServletConfig 来描述
-ServletRequest 和 ServletResponse 就是要交互的具体对象。它们通常都是作为运输工具来传递交互结果。
-```
-
-## Reference
-* [Servlet 工作原理解析](https://www.ibm.com/developerworks/cn/java/j-lo-servlet/)
+交易场景就由 ServletContext 来描述，而定制的参数集合就由 ServletConfig 来描述  
+ServletRequest 和 ServletResponse 就是要交互的具体对象。它们通常都是作为运输工具来传递交互结果。  
 
